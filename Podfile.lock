@@ -1,8 +1,13 @@
 PODS:
+  - DI (1.0.0)
+  - Lists (1.0.0):
+    - DI
   - SwiftFormat/CLI (0.48.11)
   - SwiftLint (0.44.0)
 
 DEPENDENCIES:
+  - DI (from `DI`)
+  - Lists (from `Lists`)
   - SwiftFormat/CLI
   - SwiftLint
 
@@ -11,10 +16,18 @@ SPEC REPOS:
     - SwiftFormat
     - SwiftLint
 
+EXTERNAL SOURCES:
+  DI:
+    :path: DI
+  Lists:
+    :path: Lists
+
 SPEC CHECKSUMS:
+  DI: 29ad6b02c718aad8f8eab10e2eb176b6459e036e
+  Lists: abedb336c0f04cebcadac0a4785c6194ed0fb925
   SwiftFormat: 938e5865a118c49d63c7a290ddad86335f9e585f
   SwiftLint: e96c0a8c770c7ebbc4d36c55baf9096bb65c4584
 
-PODFILE CHECKSUM: 73ef47908c695939a8ee16d31bf326dc16253502
+PODFILE CHECKSUM: e2e864773f6f8765fae339abb9a71a9562c40b3d
 
 COCOAPODS: 1.11.2

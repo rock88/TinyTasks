@@ -6,6 +6,9 @@ platform :ios, deployment_target
 use_modular_headers!
 
 target 'TinyTasks' do
+  pod 'DI', :path => 'DI'
+  pod 'Lists', :path => 'Lists'
+  
   pod 'SwiftFormat/CLI'
   pod 'SwiftLint'
 end

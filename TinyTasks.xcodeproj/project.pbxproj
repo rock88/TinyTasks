@@ -3,15 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		223F8F4CB0FCBA27FE77C94F /* libPods-TinyTasks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D73AABDADDC2322C270B496 /* libPods-TinyTasks.a */; };
 		283520F9272AD4720052DFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283520F8272AD4720052DFD9 /* Assets.xcassets */; };
 		283520FC272AD4720052DFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283520FA272AD4720052DFD9 /* LaunchScreen.storyboard */; };
-		28352106272AD4CB0052DFD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28352104272AD4CA0052DFD9 /* ViewController.swift */; };
 		28352107272AD4CB0052DFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28352105272AD4CA0052DFD9 /* AppDelegate.swift */; };
+		28352115272B0A360052DFD9 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28352114272B0A360052DFD9 /* AppAssembly.swift */; };
+		28352119272B11E50052DFD9 /* ListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28352118272B11E50052DFD9 /* ListsViewController.swift */; };
+		2835211B272B12060052DFD9 /* ListsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835211A272B12060052DFD9 /* ListsController.swift */; };
+		2835211E272B16410052DFD9 /* TableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835211D272B16410052DFD9 /* TableViewHelper.swift */; };
+		28352120272B1A3C0052DFD9 /* NavigationItemsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835211F272B1A3C0052DFD9 /* NavigationItemsHelper.swift */; };
+		28352122272B4B340052DFD9 /* EmptyItemsPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28352121272B4B340052DFD9 /* EmptyItemsPlaceholder.swift */; };
+		28352131272C14580052DFD9 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28352130272C14580052DFD9 /* TasksViewController.swift */; };
+		28352133272C145E0052DFD9 /* TasksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28352132272C145E0052DFD9 /* TasksController.swift */; };
+		2835213B272C3F560052DFD9 /* EditListAlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835213A272C3F560052DFD9 /* EditListAlertPresenter.swift */; };
+		2835213D272C41B00052DFD9 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835213C272C41B00052DFD9 /* AppRouter.swift */; };
+		28352140272C4A4E0052DFD9 /* EditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835213F272C4A4E0052DFD9 /* EditTaskViewController.swift */; };
+		28352142272C4A760052DFD9 /* EditTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28352141272C4A760052DFD9 /* EditTaskController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +31,21 @@
 		283520F8272AD4720052DFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		283520FB272AD4720052DFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		283520FD272AD4720052DFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28352104272AD4CA0052DFD9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28352105272AD4CA0052DFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2835210B272AF6F70052DFD9 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		2835210C272AF6F70052DFD9 /* .swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
+		28352114272B0A360052DFD9 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
+		28352118272B11E50052DFD9 /* ListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewController.swift; sourceTree = "<group>"; };
+		2835211A272B12060052DFD9 /* ListsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsController.swift; sourceTree = "<group>"; };
+		2835211D272B16410052DFD9 /* TableViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHelper.swift; sourceTree = "<group>"; };
+		2835211F272B1A3C0052DFD9 /* NavigationItemsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItemsHelper.swift; sourceTree = "<group>"; };
+		28352121272B4B340052DFD9 /* EmptyItemsPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyItemsPlaceholder.swift; sourceTree = "<group>"; };
+		28352130272C14580052DFD9 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		28352132272C145E0052DFD9 /* TasksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksController.swift; sourceTree = "<group>"; };
+		2835213A272C3F560052DFD9 /* EditListAlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListAlertPresenter.swift; sourceTree = "<group>"; };
+		2835213C272C41B00052DFD9 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		2835213F272C4A4E0052DFD9 /* EditTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
+		28352141272C4A760052DFD9 /* EditTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskController.swift; sourceTree = "<group>"; };
 		7456FF9621D72F8440040D66 /* Pods-TinyTasks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyTasks.debug.xcconfig"; path = "Target Support Files/Pods-TinyTasks/Pods-TinyTasks.debug.xcconfig"; sourceTree = "<group>"; };
 		DDEB84782AE1DEE836067554 /* Pods-TinyTasks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyTasks.release.xcconfig"; path = "Target Support Files/Pods-TinyTasks/Pods-TinyTasks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,8 +95,11 @@
 		28352103272AD4CA0052DFD9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				28352104272AD4CA0052DFD9 /* ViewController.swift */,
+				28352116272B11C60052DFD9 /* Modules */,
+				2835211C272B160F0052DFD9 /* Helpers */,
 				28352105272AD4CA0052DFD9 /* AppDelegate.swift */,
+				28352114272B0A360052DFD9 /* AppAssembly.swift */,
+				2835213C272C41B00052DFD9 /* AppRouter.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -86,6 +111,54 @@
 				2835210C272AF6F70052DFD9 /* .swiftformat */,
 			);
 			path = tools;
+			sourceTree = "<group>";
+		};
+		28352116272B11C60052DFD9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				28352117272B11D20052DFD9 /* Lists */,
+				2835212F272C14440052DFD9 /* Tasks */,
+				2835213E272C4A370052DFD9 /* EditTask */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		28352117272B11D20052DFD9 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				28352118272B11E50052DFD9 /* ListsViewController.swift */,
+				2835211A272B12060052DFD9 /* ListsController.swift */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		2835211C272B160F0052DFD9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2835211D272B16410052DFD9 /* TableViewHelper.swift */,
+				2835211F272B1A3C0052DFD9 /* NavigationItemsHelper.swift */,
+				28352121272B4B340052DFD9 /* EmptyItemsPlaceholder.swift */,
+				2835213A272C3F560052DFD9 /* EditListAlertPresenter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2835212F272C14440052DFD9 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				28352130272C14580052DFD9 /* TasksViewController.swift */,
+				28352132272C145E0052DFD9 /* TasksController.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		2835213E272C4A370052DFD9 /* EditTask */ = {
+			isa = PBXGroup;
+			children = (
+				2835213F272C4A4E0052DFD9 /* EditTaskViewController.swift */,
+				28352141272C4A760052DFD9 /* EditTaskController.swift */,
+			);
+			path = EditTask;
 			sourceTree = "<group>";
 		};
 		632DE22341184367CDF28EAD /* Pods */ = {
@@ -113,11 +186,12 @@
 			buildConfigurationList = 28352100272AD4720052DFD9 /* Build configuration list for PBXNativeTarget "TinyTasks" */;
 			buildPhases = (
 				9EE23695512A94CA47A3CF9E /* [CP] Check Pods Manifest.lock */,
+				28352108272AD5D80052DFD9 /* Run SwiftFormat */,
+				28352109272AD7470052DFD9 /* Run SwiftLint */,
 				283520E8272AD4700052DFD9 /* Sources */,
 				283520E9272AD4700052DFD9 /* Frameworks */,
 				283520EA272AD4700052DFD9 /* Resources */,
-				28352108272AD5D80052DFD9 /* Run SwiftFormat */,
-				28352109272AD7470052DFD9 /* Run SwiftLint */,
+				F31782D7BA2F00A971108842 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +309,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F31782D7BA2F00A971108842 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinyTasks/Pods-TinyTasks-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinyTasks/Pods-TinyTasks-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TinyTasks/Pods-TinyTasks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -242,8 +333,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28352120272B1A3C0052DFD9 /* NavigationItemsHelper.swift in Sources */,
+				2835213B272C3F560052DFD9 /* EditListAlertPresenter.swift in Sources */,
+				28352131272C14580052DFD9 /* TasksViewController.swift in Sources */,
+				28352115272B0A360052DFD9 /* AppAssembly.swift in Sources */,
+				28352142272C4A760052DFD9 /* EditTaskController.swift in Sources */,
+				2835211B272B12060052DFD9 /* ListsController.swift in Sources */,
+				2835211E272B16410052DFD9 /* TableViewHelper.swift in Sources */,
+				28352122272B4B340052DFD9 /* EmptyItemsPlaceholder.swift in Sources */,
+				28352140272C4A4E0052DFD9 /* EditTaskViewController.swift in Sources */,
+				2835213D272C41B00052DFD9 /* AppRouter.swift in Sources */,
 				28352107272AD4CB0052DFD9 /* AppDelegate.swift in Sources */,
-				28352106272AD4CB0052DFD9 /* ViewController.swift in Sources */,
+				28352133272C145E0052DFD9 /* TasksController.swift in Sources */,
+				28352119272B11E50052DFD9 /* ListsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
