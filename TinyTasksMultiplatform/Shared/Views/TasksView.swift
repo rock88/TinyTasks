@@ -37,7 +37,7 @@ struct TasksView: View {
                             label: { Image(systemName: "pencil") }
                         )
                         Button(
-                            action: { withAnimation { tasksManager.tasksCoordinator.delete(task: task) } },
+                            action: { withAnimation { tasksManager.delete(task: task) } },
                             label: { Image(systemName: "trash") }
                         )
                     }

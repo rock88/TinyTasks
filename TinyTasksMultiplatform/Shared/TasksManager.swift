@@ -5,7 +5,7 @@ import SwiftUI
 typealias TaskItem = Lists.Task
 
 final class TasksManager: ObservableObject {
-    let tasksCoordinator: TasksCoordinator
+    private let tasksCoordinator: TasksCoordinator
 
     @Published var tasks: [TaskItem] = []
 
