@@ -6,8 +6,34 @@
 	objectVersion = 51;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		28320C05272C96820018CD45 /* SwiftFormat & SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 28320C08272C96820018CD45 /* Build configuration list for PBXAggregateTarget "SwiftFormat & SwiftLint" */;
+			buildPhases = (
+				28320C09272C96920018CD45 /* Run SwiftFormat */,
+				28320C0A272C96AE0018CD45 /* Run SwiftLint */,
+			);
+			dependencies = (
+			);
+			name = "SwiftFormat & SwiftLint";
+			productName = "SwiftFormat & SwiftLint";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		14BE78693877E998BF36C397 /* libPods-TinyTasksMultiplatform (macOS).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4297D3C41AB40643FFC2D852 /* libPods-TinyTasksMultiplatform (macOS).a */; };
 		223F8F4CB0FCBA27FE77C94F /* libPods-TinyTasks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D73AABDADDC2322C270B496 /* libPods-TinyTasks.a */; };
+		28320C12272C9DEA0018CD45 /* ListsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C11272C9DEA0018CD45 /* ListsManager.swift */; };
+		28320C13272C9DEA0018CD45 /* ListsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C11272C9DEA0018CD45 /* ListsManager.swift */; };
+		28320C15272CA76A0018CD45 /* TextFieldSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C14272CA76A0018CD45 /* TextFieldSheets.swift */; };
+		28320C16272CA76A0018CD45 /* TextFieldSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C14272CA76A0018CD45 /* TextFieldSheets.swift */; };
+		28320C18272CA9C90018CD45 /* ListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C17272CA9C90018CD45 /* ListsView.swift */; };
+		28320C19272CA9C90018CD45 /* ListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C17272CA9C90018CD45 /* ListsView.swift */; };
+		28320C1B272CA9EF0018CD45 /* TasksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C1A272CA9EF0018CD45 /* TasksManager.swift */; };
+		28320C1C272CA9EF0018CD45 /* TasksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C1A272CA9EF0018CD45 /* TasksManager.swift */; };
+		28320C1F272D380F0018CD45 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C1E272D380F0018CD45 /* TasksView.swift */; };
+		28320C20272D380F0018CD45 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C1E272D380F0018CD45 /* TasksView.swift */; };
 		283520F9272AD4720052DFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283520F8272AD4720052DFD9 /* Assets.xcassets */; };
 		283520FC272AD4720052DFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283520FA272AD4720052DFD9 /* LaunchScreen.storyboard */; };
 		28352107272AD4CB0052DFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28352105272AD4CA0052DFD9 /* AppDelegate.swift */; };
@@ -23,10 +49,47 @@
 		2835213D272C41B00052DFD9 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835213C272C41B00052DFD9 /* AppRouter.swift */; };
 		28352140272C4A4E0052DFD9 /* EditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835213F272C4A4E0052DFD9 /* EditTaskViewController.swift */; };
 		28352142272C4A760052DFD9 /* EditTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28352141272C4A760052DFD9 /* EditTaskController.swift */; };
+		2835218B272C936D0052DFD9 /* TinyTasksMultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28352179272C936B0052DFD9 /* TinyTasksMultiplatformApp.swift */; };
+		2835218C272C936D0052DFD9 /* TinyTasksMultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28352179272C936B0052DFD9 /* TinyTasksMultiplatformApp.swift */; };
+		2835218D272C936D0052DFD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835217A272C936B0052DFD9 /* ContentView.swift */; };
+		2835218E272C936D0052DFD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835217A272C936B0052DFD9 /* ContentView.swift */; };
+		2835218F272C936D0052DFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2835217B272C936D0052DFD9 /* Assets.xcassets */; };
+		28352190272C936D0052DFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2835217B272C936D0052DFD9 /* Assets.xcassets */; };
+		DF9C6FB98BB6E857CEF172B8 /* libPods-TinyTasksMultiplatform (iOS).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DC176B5D2D2191D9638F2B /* libPods-TinyTasksMultiplatform (iOS).a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28320C0B272C96DC0018CD45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 283520E4272AD4700052DFD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28320C05272C96820018CD45;
+			remoteInfo = "SwiftFormat & SwiftLint";
+		};
+		28320C0D272C96E10018CD45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 283520E4272AD4700052DFD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28320C05272C96820018CD45;
+			remoteInfo = "SwiftFormat & SwiftLint";
+		};
+		28320C0F272C96E40018CD45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 283520E4272AD4700052DFD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28320C05272C96820018CD45;
+			remoteInfo = "SwiftFormat & SwiftLint";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D73AABDADDC2322C270B496 /* libPods-TinyTasks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TinyTasks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		209115C2480457470FE90AE7 /* Pods-TinyTasksMultiplatform (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyTasksMultiplatform (macOS).release.xcconfig"; path = "Target Support Files/Pods-TinyTasksMultiplatform (macOS)/Pods-TinyTasksMultiplatform (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		28320C11272C9DEA0018CD45 /* ListsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsManager.swift; sourceTree = "<group>"; };
+		28320C14272CA76A0018CD45 /* TextFieldSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSheets.swift; sourceTree = "<group>"; };
+		28320C17272CA9C90018CD45 /* ListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsView.swift; sourceTree = "<group>"; };
+		28320C1A272CA9EF0018CD45 /* TasksManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksManager.swift; sourceTree = "<group>"; };
+		28320C1E272D380F0018CD45 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 		283520EC272AD4700052DFD9 /* TinyTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		283520F8272AD4720052DFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		283520FB272AD4720052DFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,8 +109,21 @@
 		2835213C272C41B00052DFD9 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		2835213F272C4A4E0052DFD9 /* EditTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
 		28352141272C4A760052DFD9 /* EditTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskController.swift; sourceTree = "<group>"; };
+		28352179272C936B0052DFD9 /* TinyTasksMultiplatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyTasksMultiplatformApp.swift; sourceTree = "<group>"; };
+		2835217A272C936B0052DFD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2835217B272C936D0052DFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28352180272C936D0052DFD9 /* TinyTasksMultiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyTasksMultiplatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28352182272C936D0052DFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28352187272C936D0052DFD9 /* TinyTasksMultiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyTasksMultiplatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28352189272C936D0052DFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2835218A272C936D0052DFD9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		37DC176B5D2D2191D9638F2B /* libPods-TinyTasksMultiplatform (iOS).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TinyTasksMultiplatform (iOS).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4297D3C41AB40643FFC2D852 /* libPods-TinyTasksMultiplatform (macOS).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TinyTasksMultiplatform (macOS).a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7456FF9621D72F8440040D66 /* Pods-TinyTasks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyTasks.debug.xcconfig"; path = "Target Support Files/Pods-TinyTasks/Pods-TinyTasks.debug.xcconfig"; sourceTree = "<group>"; };
+		9B479187B624222525ACF59A /* Pods-TinyTasksMultiplatform (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyTasksMultiplatform (iOS).release.xcconfig"; path = "Target Support Files/Pods-TinyTasksMultiplatform (iOS)/Pods-TinyTasksMultiplatform (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		DBA94B96D80DAE4CA3731602 /* Pods-TinyTasksMultiplatform (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyTasksMultiplatform (macOS).debug.xcconfig"; path = "Target Support Files/Pods-TinyTasksMultiplatform (macOS)/Pods-TinyTasksMultiplatform (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 		DDEB84782AE1DEE836067554 /* Pods-TinyTasks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyTasks.release.xcconfig"; path = "Target Support Files/Pods-TinyTasks/Pods-TinyTasks.release.xcconfig"; sourceTree = "<group>"; };
+		F8EC7BB1DC841F6508537D16 /* Pods-TinyTasksMultiplatform (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyTasksMultiplatform (iOS).debug.xcconfig"; path = "Target Support Files/Pods-TinyTasksMultiplatform (iOS)/Pods-TinyTasksMultiplatform (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +135,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2835217D272C936D0052DFD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9C6FB98BB6E857CEF172B8 /* libPods-TinyTasksMultiplatform (iOS).a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28352184272C936D0052DFD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BE78693877E998BF36C397 /* libPods-TinyTasksMultiplatform (macOS).a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28320C1D272D37FB0018CD45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2835217A272C936B0052DFD9 /* ContentView.swift */,
+				28320C17272CA9C90018CD45 /* ListsView.swift */,
+				28320C1E272D380F0018CD45 /* TasksView.swift */,
+				28320C14272CA76A0018CD45 /* TextFieldSheets.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		283520E3272AD4700052DFD9 = {
 			isa = PBXGroup;
 			children = (
 				283520EE272AD4700052DFD9 /* TinyTasks */,
+				28352197272C938C0052DFD9 /* TinyTasksMultiplatform */,
 				2835210A272AF6F70052DFD9 /* tools */,
 				283520ED272AD4700052DFD9 /* Products */,
 				632DE22341184367CDF28EAD /* Pods */,
@@ -77,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				283520EC272AD4700052DFD9 /* TinyTasks.app */,
+				28352180272C936D0052DFD9 /* TinyTasksMultiplatform.app */,
+				28352187272C936D0052DFD9 /* TinyTasksMultiplatform.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,11 +267,54 @@
 			path = EditTask;
 			sourceTree = "<group>";
 		};
+		28352178272C936B0052DFD9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				28320C1D272D37FB0018CD45 /* Views */,
+				28352179272C936B0052DFD9 /* TinyTasksMultiplatformApp.swift */,
+				28320C11272C9DEA0018CD45 /* ListsManager.swift */,
+				28320C1A272CA9EF0018CD45 /* TasksManager.swift */,
+				2835217B272C936D0052DFD9 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		28352181272C936D0052DFD9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				28352182272C936D0052DFD9 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		28352188272C936D0052DFD9 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				28352189272C936D0052DFD9 /* Info.plist */,
+				2835218A272C936D0052DFD9 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		28352197272C938C0052DFD9 /* TinyTasksMultiplatform */ = {
+			isa = PBXGroup;
+			children = (
+				28352178272C936B0052DFD9 /* Shared */,
+				28352181272C936D0052DFD9 /* iOS */,
+				28352188272C936D0052DFD9 /* macOS */,
+			);
+			path = TinyTasksMultiplatform;
+			sourceTree = "<group>";
+		};
 		632DE22341184367CDF28EAD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				7456FF9621D72F8440040D66 /* Pods-TinyTasks.debug.xcconfig */,
 				DDEB84782AE1DEE836067554 /* Pods-TinyTasks.release.xcconfig */,
+				F8EC7BB1DC841F6508537D16 /* Pods-TinyTasksMultiplatform (iOS).debug.xcconfig */,
+				9B479187B624222525ACF59A /* Pods-TinyTasksMultiplatform (iOS).release.xcconfig */,
+				DBA94B96D80DAE4CA3731602 /* Pods-TinyTasksMultiplatform (macOS).debug.xcconfig */,
+				209115C2480457470FE90AE7 /* Pods-TinyTasksMultiplatform (macOS).release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -174,6 +323,8 @@
 			isa = PBXGroup;
 			children = (
 				1D73AABDADDC2322C270B496 /* libPods-TinyTasks.a */,
+				37DC176B5D2D2191D9638F2B /* libPods-TinyTasksMultiplatform (iOS).a */,
+				4297D3C41AB40643FFC2D852 /* libPods-TinyTasksMultiplatform (macOS).a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,8 +337,6 @@
 			buildConfigurationList = 28352100272AD4720052DFD9 /* Build configuration list for PBXNativeTarget "TinyTasks" */;
 			buildPhases = (
 				9EE23695512A94CA47A3CF9E /* [CP] Check Pods Manifest.lock */,
-				28352108272AD5D80052DFD9 /* Run SwiftFormat */,
-				28352109272AD7470052DFD9 /* Run SwiftLint */,
 				283520E8272AD4700052DFD9 /* Sources */,
 				283520E9272AD4700052DFD9 /* Frameworks */,
 				283520EA272AD4700052DFD9 /* Resources */,
@@ -196,10 +345,51 @@
 			buildRules = (
 			);
 			dependencies = (
+				28320C0C272C96DC0018CD45 /* PBXTargetDependency */,
 			);
 			name = TinyTasks;
 			productName = TinyTasks;
 			productReference = 283520EC272AD4700052DFD9 /* TinyTasks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2835217F272C936D0052DFD9 /* TinyTasksMultiplatform (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28352195272C936D0052DFD9 /* Build configuration list for PBXNativeTarget "TinyTasksMultiplatform (iOS)" */;
+			buildPhases = (
+				AD400C41E77BE81EE258E679 /* [CP] Check Pods Manifest.lock */,
+				2835217C272C936D0052DFD9 /* Sources */,
+				2835217D272C936D0052DFD9 /* Frameworks */,
+				2835217E272C936D0052DFD9 /* Resources */,
+				C6145D447C39BB94E8B74987 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28320C0E272C96E10018CD45 /* PBXTargetDependency */,
+			);
+			name = "TinyTasksMultiplatform (iOS)";
+			productName = "TinyTasksMultiplatform (iOS)";
+			productReference = 28352180272C936D0052DFD9 /* TinyTasksMultiplatform.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28352186272C936D0052DFD9 /* TinyTasksMultiplatform (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28352196272C936D0052DFD9 /* Build configuration list for PBXNativeTarget "TinyTasksMultiplatform (macOS)" */;
+			buildPhases = (
+				5CCCA1747F7A7C966FAC7372 /* [CP] Check Pods Manifest.lock */,
+				28352183272C936D0052DFD9 /* Sources */,
+				28352184272C936D0052DFD9 /* Frameworks */,
+				28352185272C936D0052DFD9 /* Resources */,
+				77117D851B78B6C27FEC2462 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28320C10272C96E40018CD45 /* PBXTargetDependency */,
+			);
+			name = "TinyTasksMultiplatform (macOS)";
+			productName = "TinyTasksMultiplatform (macOS)";
+			productReference = 28352187272C936D0052DFD9 /* TinyTasksMultiplatform.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +401,16 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					28320C05272C96820018CD45 = {
+						CreatedOnToolsVersion = 12.5;
+					};
 					283520EB272AD4700052DFD9 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					2835217F272C936D0052DFD9 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					28352186272C936D0052DFD9 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -230,6 +429,9 @@
 			projectRoot = "";
 			targets = (
 				283520EB272AD4700052DFD9 /* TinyTasks */,
+				2835217F272C936D0052DFD9 /* TinyTasksMultiplatform (iOS) */,
+				28352186272C936D0052DFD9 /* TinyTasksMultiplatform (macOS) */,
+				28320C05272C96820018CD45 /* SwiftFormat & SwiftLint */,
 			);
 		};
 /* End PBXProject section */
@@ -244,10 +446,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2835217E272C936D0052DFD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2835218F272C936D0052DFD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28352185272C936D0052DFD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28352190272C936D0052DFD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		28352108272AD5D80052DFD9 /* Run SwiftFormat */ = {
+		28320C09272C96920018CD45 /* Run SwiftFormat */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,13 +479,12 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/tmp_swiftformat",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" --config \"${SRCROOT}/tools/.swiftformat\" \"${SRCROOT}\"\n";
+			shellScript = "\"Pods/SwiftFormat/CommandLineTool/swiftformat\" --config \"${SRCROOT}/tools/.swiftformat\" \"${SRCROOT}\"\n";
 		};
-		28352109272AD7470052DFD9 /* Run SwiftLint */ = {
+		28320C0A272C96AE0018CD45 /* Run SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,11 +498,49 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/tmp_swiftlint",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\" --config \"${SRCROOT}/tools/.swiftlint.yml\" \"${SRCROOT}\"\n";
+			shellScript = "\"Pods/SwiftLint/swiftlint\" --config \"${SRCROOT}/tools/.swiftlint.yml\" \"${SRCROOT}\"\n";
+		};
+		5CCCA1747F7A7C966FAC7372 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinyTasksMultiplatform (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77117D851B78B6C27FEC2462 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinyTasksMultiplatform (macOS)/Pods-TinyTasksMultiplatform (macOS)-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinyTasksMultiplatform (macOS)/Pods-TinyTasksMultiplatform (macOS)-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TinyTasksMultiplatform (macOS)/Pods-TinyTasksMultiplatform (macOS)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		9EE23695512A94CA47A3CF9E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -307,6 +562,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD400C41E77BE81EE258E679 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinyTasksMultiplatform (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6145D447C39BB94E8B74987 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinyTasksMultiplatform (iOS)/Pods-TinyTasksMultiplatform (iOS)-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinyTasksMultiplatform (iOS)/Pods-TinyTasksMultiplatform (iOS)-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TinyTasksMultiplatform (iOS)/Pods-TinyTasksMultiplatform (iOS)-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F31782D7BA2F00A971108842 /* [CP] Copy Pods Resources */ = {
@@ -349,7 +643,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2835217C272C936D0052DFD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2835218D272C936D0052DFD9 /* ContentView.swift in Sources */,
+				28320C18272CA9C90018CD45 /* ListsView.swift in Sources */,
+				28320C1B272CA9EF0018CD45 /* TasksManager.swift in Sources */,
+				28320C1F272D380F0018CD45 /* TasksView.swift in Sources */,
+				28320C12272C9DEA0018CD45 /* ListsManager.swift in Sources */,
+				28320C15272CA76A0018CD45 /* TextFieldSheets.swift in Sources */,
+				2835218B272C936D0052DFD9 /* TinyTasksMultiplatformApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28352183272C936D0052DFD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2835218E272C936D0052DFD9 /* ContentView.swift in Sources */,
+				28320C19272CA9C90018CD45 /* ListsView.swift in Sources */,
+				28320C1C272CA9EF0018CD45 /* TasksManager.swift in Sources */,
+				28320C20272D380F0018CD45 /* TasksView.swift in Sources */,
+				28320C13272C9DEA0018CD45 /* ListsManager.swift in Sources */,
+				28320C16272CA76A0018CD45 /* TextFieldSheets.swift in Sources */,
+				2835218C272C936D0052DFD9 /* TinyTasksMultiplatformApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28320C0C272C96DC0018CD45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28320C05272C96820018CD45 /* SwiftFormat & SwiftLint */;
+			targetProxy = 28320C0B272C96DC0018CD45 /* PBXContainerItemProxy */;
+		};
+		28320C0E272C96E10018CD45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28320C05272C96820018CD45 /* SwiftFormat & SwiftLint */;
+			targetProxy = 28320C0D272C96E10018CD45 /* PBXContainerItemProxy */;
+		};
+		28320C10272C96E40018CD45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28320C05272C96820018CD45 /* SwiftFormat & SwiftLint */;
+			targetProxy = 28320C0F272C96E40018CD45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		283520FA272AD4720052DFD9 /* LaunchScreen.storyboard */ = {
@@ -363,6 +703,22 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		28320C06272C96820018CD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28320C07272C96820018CD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		283520FE272AD4720052DFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -517,9 +873,111 @@
 			};
 			name = Release;
 		};
+		28352191272C936D0052DFD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8EC7BB1DC841F6508537D16 /* Pods-TinyTasksMultiplatform (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TinyTasksMultiplatform/iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock88.TinyTasksMultiplatform;
+				PRODUCT_NAME = TinyTasksMultiplatform;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28352192272C936D0052DFD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B479187B624222525ACF59A /* Pods-TinyTasksMultiplatform (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TinyTasksMultiplatform/iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock88.TinyTasksMultiplatform;
+				PRODUCT_NAME = TinyTasksMultiplatform;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28352193272C936D0052DFD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA94B96D80DAE4CA3731602 /* Pods-TinyTasksMultiplatform (macOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TinyTasksMultiplatform/macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TinyTasksMultiplatform/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock88.TinyTasksMultiplatform;
+				PRODUCT_NAME = TinyTasksMultiplatform;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		28352194272C936D0052DFD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209115C2480457470FE90AE7 /* Pods-TinyTasksMultiplatform (macOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TinyTasksMultiplatform/macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TinyTasksMultiplatform/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock88.TinyTasksMultiplatform;
+				PRODUCT_NAME = TinyTasksMultiplatform;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		28320C08272C96820018CD45 /* Build configuration list for PBXAggregateTarget "SwiftFormat & SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28320C06272C96820018CD45 /* Debug */,
+				28320C07272C96820018CD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		283520E7272AD4700052DFD9 /* Build configuration list for PBXProject "TinyTasks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -534,6 +992,24 @@
 			buildConfigurations = (
 				28352101272AD4720052DFD9 /* Debug */,
 				28352102272AD4720052DFD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28352195272C936D0052DFD9 /* Build configuration list for PBXNativeTarget "TinyTasksMultiplatform (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28352191272C936D0052DFD9 /* Debug */,
+				28352192272C936D0052DFD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28352196272C936D0052DFD9 /* Build configuration list for PBXNativeTarget "TinyTasksMultiplatform (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28352193272C936D0052DFD9 /* Debug */,
+				28352194272C936D0052DFD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
