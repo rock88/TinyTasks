@@ -1,0 +1,7 @@
+module DI {
+  umbrella header "DI-macOS-umbrella.h"
+  exclude header "DI-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

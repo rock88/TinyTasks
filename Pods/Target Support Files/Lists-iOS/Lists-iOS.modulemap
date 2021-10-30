@@ -1,0 +1,7 @@
+module Lists {
+  umbrella header "Lists-iOS-umbrella.h"
+  exclude header "Lists-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

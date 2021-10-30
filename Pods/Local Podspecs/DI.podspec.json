@@ -1,0 +1,25 @@
+{
+  "name": "DI",
+  "version": "1.0.0",
+  "summary": "DI",
+  "description": "Simple DI container implementation - not thread safe!",
+  "homepage": "https://github.com/rock88",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Andrey Konoplyankin": "rock88a@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rock88",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "13.0",
+    "osx": "11.0"
+  },
+  "swift_versions": "5.5",
+  "source_files": "Sources/**/*.{swift,m,h}",
+  "swift_version": "5.5"
+}

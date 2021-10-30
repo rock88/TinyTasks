@@ -1,0 +1,6 @@
+module Pods_TinyTasks {
+  umbrella header "Pods-TinyTasks-umbrella.h"
+
+  export *
+  module * { export * }
+}

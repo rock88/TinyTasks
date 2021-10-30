@@ -1,0 +1,6 @@
+module Pods_TinyTasksMultiplatform__iOS_ {
+  umbrella header "Pods-TinyTasksMultiplatform (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}
