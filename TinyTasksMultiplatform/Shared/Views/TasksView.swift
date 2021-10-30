@@ -41,7 +41,8 @@ struct TasksView: View {
                             label: { Image(systemName: "trash") }
                         )
                     }
-                    .contentShape(Rectangle())
+                    // TODO: Tap conflicting with onMove: Tap works only if tap on some content (image/text),
+                    // move works on whole cell except image/text
                     .onTapGesture {
                         tasksManager.update(isCompleted: !task.isCompleted, task: task)
                     }
