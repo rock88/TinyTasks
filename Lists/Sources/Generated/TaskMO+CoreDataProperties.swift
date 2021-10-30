@@ -1,7 +1,7 @@
 import CoreData
 import Foundation
 
-public extension TaskMO {
+extension TaskMO {
     @nonobjc class func fetchRequest() -> NSFetchRequest<TaskMO> {
         return NSFetchRequest<TaskMO>(entityName: "TaskMO")
     }

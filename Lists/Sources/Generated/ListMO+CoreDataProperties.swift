@@ -1,7 +1,7 @@
 import CoreData
 import Foundation
 
-public extension ListMO {
+extension ListMO {
     @nonobjc class func fetchRequest() -> NSFetchRequest<ListMO> {
         return NSFetchRequest<ListMO>(entityName: "ListMO")
     }
@@ -15,7 +15,7 @@ public extension ListMO {
 
 // MARK: Generated accessors for tasks
 
-public extension ListMO {
+extension ListMO {
     @objc(addTasksObject:)
     @NSManaged func addToTasks(_ value: TaskMO)
 

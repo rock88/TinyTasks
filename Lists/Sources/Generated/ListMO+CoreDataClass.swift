@@ -1,4 +1,4 @@
 import CoreData
 import Foundation
 
-public class ListMO: NSManagedObject {}
+class ListMO: NSManagedObject {}
