@@ -22,6 +22,7 @@ private struct DemoListsManagerIml: DemoListsManager {
         }
 
         UserDefaults.standard.set(true, forKey: "not_first_app_launch")
+        UserDefaults.standard.synchronize()
 
         let listsCoordinator = assembly.listsCoordinator
         let demoList = listsCoordinator.addList(title: "Demo")
