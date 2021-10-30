@@ -6,12 +6,16 @@ import SwiftUI
 final class TinyTasksMultiplatformApp: App {
     lazy var context = DIContext()
     lazy var listsAssembly: ListsAssembly = context.assembly()
+    lazy var demoListsManagerAssembly: DemoListsManagerAssembly = context.assembly()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environmentObject(ListsManager(listsCoordinator: listsAssembly.listsCoordinator))
                 .environmentObject(TasksManagerProvider(listsAssembly: listsAssembly))
+                .onAppear {
+                    self.demoListsManagerAssembly.demoListsManager.addDemoListsOnFirstAppLaunch()
+                }
         }
     }
 }

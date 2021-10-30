@@ -34,6 +34,9 @@
 		28320C1C272CA9EF0018CD45 /* TasksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C1A272CA9EF0018CD45 /* TasksManager.swift */; };
 		28320C1F272D380F0018CD45 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C1E272D380F0018CD45 /* TasksView.swift */; };
 		28320C20272D380F0018CD45 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C1E272D380F0018CD45 /* TasksView.swift */; };
+		28320C23272D55E00018CD45 /* DemoListsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C22272D55E00018CD45 /* DemoListsManager.swift */; };
+		28320C24272D56010018CD45 /* DemoListsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C22272D55E00018CD45 /* DemoListsManager.swift */; };
+		28320C25272D56020018CD45 /* DemoListsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28320C22272D55E00018CD45 /* DemoListsManager.swift */; };
 		283520F9272AD4720052DFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283520F8272AD4720052DFD9 /* Assets.xcassets */; };
 		283520FC272AD4720052DFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283520FA272AD4720052DFD9 /* LaunchScreen.storyboard */; };
 		28352107272AD4CB0052DFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28352105272AD4CA0052DFD9 /* AppDelegate.swift */; };
@@ -90,6 +93,7 @@
 		28320C17272CA9C90018CD45 /* ListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsView.swift; sourceTree = "<group>"; };
 		28320C1A272CA9EF0018CD45 /* TasksManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksManager.swift; sourceTree = "<group>"; };
 		28320C1E272D380F0018CD45 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		28320C22272D55E00018CD45 /* DemoListsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoListsManager.swift; sourceTree = "<group>"; };
 		283520EC272AD4700052DFD9 /* TinyTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		283520F8272AD4720052DFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		283520FB272AD4720052DFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -165,11 +169,20 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		28320C21272D55B50018CD45 /* TinyTasksShared */ = {
+			isa = PBXGroup;
+			children = (
+				28320C22272D55E00018CD45 /* DemoListsManager.swift */,
+			);
+			path = TinyTasksShared;
+			sourceTree = "<group>";
+		};
 		283520E3272AD4700052DFD9 = {
 			isa = PBXGroup;
 			children = (
 				283520EE272AD4700052DFD9 /* TinyTasks */,
 				28352197272C938C0052DFD9 /* TinyTasksMultiplatform */,
+				28320C21272D55B50018CD45 /* TinyTasksShared */,
 				2835210A272AF6F70052DFD9 /* tools */,
 				283520ED272AD4700052DFD9 /* Products */,
 				632DE22341184367CDF28EAD /* Pods */,
@@ -631,6 +644,7 @@
 				2835213B272C3F560052DFD9 /* EditListAlertPresenter.swift in Sources */,
 				28352131272C14580052DFD9 /* TasksViewController.swift in Sources */,
 				28352115272B0A360052DFD9 /* AppAssembly.swift in Sources */,
+				28320C23272D55E00018CD45 /* DemoListsManager.swift in Sources */,
 				28352142272C4A760052DFD9 /* EditTaskController.swift in Sources */,
 				2835211B272B12060052DFD9 /* ListsController.swift in Sources */,
 				2835211E272B16410052DFD9 /* TableViewHelper.swift in Sources */,
@@ -651,6 +665,7 @@
 				28320C18272CA9C90018CD45 /* ListsView.swift in Sources */,
 				28320C1B272CA9EF0018CD45 /* TasksManager.swift in Sources */,
 				28320C1F272D380F0018CD45 /* TasksView.swift in Sources */,
+				28320C24272D56010018CD45 /* DemoListsManager.swift in Sources */,
 				28320C12272C9DEA0018CD45 /* ListsManager.swift in Sources */,
 				28320C15272CA76A0018CD45 /* TextFieldSheets.swift in Sources */,
 				2835218B272C936D0052DFD9 /* TinyTasksMultiplatformApp.swift in Sources */,
@@ -665,6 +680,7 @@
 				28320C19272CA9C90018CD45 /* ListsView.swift in Sources */,
 				28320C1C272CA9EF0018CD45 /* TasksManager.swift in Sources */,
 				28320C20272D380F0018CD45 /* TasksView.swift in Sources */,
+				28320C25272D56020018CD45 /* DemoListsManager.swift in Sources */,
 				28320C13272C9DEA0018CD45 /* ListsManager.swift in Sources */,
 				28320C16272CA76A0018CD45 /* TextFieldSheets.swift in Sources */,
 				2835218C272C936D0052DFD9 /* TinyTasksMultiplatformApp.swift in Sources */,
